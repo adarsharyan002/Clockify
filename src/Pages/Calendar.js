@@ -7,7 +7,7 @@ const Calendar = () => {
     return (
         <Container className="pagenav">
 
-            <ListGroup className="d-flex flex-wrap flex-row justify-content-between" as="ul">
+            <ListGroup  className="d-flex flex-wrap flex-row justify-content-between" as="ul">
 
             <ListGroup.Item className="buttons" style={{ fontSize:'1.8rem',color:'#757575'}}>
              <Button>Calendar</Button>
@@ -15,7 +15,7 @@ const Calendar = () => {
              <Button>Day</Button>
              </ListGroup.Item>
 
-  <ListGroupItem style={{ gap:'1.3rem'}}className="d-flex flex-row justify-content-between buttons">
+  <ListGroupItem style={{ gap:'1.3rem',border:'none'}} className="d-flex flex-row justify-content-between buttons">
      
       <Button><FaMarsStroke/></Button> 
      <DropdownButton id="dropdown-basic-button" title="Team mates">

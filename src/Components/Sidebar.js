@@ -15,6 +15,7 @@ import {MdOutlineDashboard,MdOutlineSettingsSuggest} from "react-icons/md"
 
 import TimeTracker from '../Pages/TimeTracker'
 import Calendar from '../Pages/Calendar'
+import Dashboard from '../Pages/Dashboard';
 
 
 
@@ -148,7 +149,7 @@ export default function SideBar() {
         heading:'ANALYZE',
       text: 'DASHBOARD', 
       icon: <MdOutlineDashboard />, 
-      path: '/' 
+      path: '/dashboard' 
     },
     { 
       text: 'REPORTS', 
@@ -230,6 +231,7 @@ export default function SideBar() {
         <Routes>
         <Route exact path="/" element={<TimeTracker />} />
         <Route exact path="/calendar" element={<Calendar />} />
+        <Route exact path="/dashboard" element={<Dashboard />} />
         
         </Routes>
       </div>
