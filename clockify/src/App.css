@@ -1,0 +1,68 @@
+.nav{
+  border-radius: 0px;
+
+box-shadow:  -5px -5px 10px #d5d5d5,
+             5px 5px 10px #ebebeb;
+}
+
+.head{
+  position: absolute;
+  display: flex;
+  gap: 1rem;
+  top: 10px;
+  left:20px;
+}
+.head svg{
+  font-size:1.4rem;
+  margin-top:10px;
+  cursor: pointer;
+}
+
+@media (max-width:750px){
+  .none01{
+    display: none;
+  }
+}
+
+.font{
+  font-size:1.4rem;
+  
+}
+
+.center{
+  position: absolute;
+  margin-top:3rem;
+  top: 50%;
+  left: 35%;
+  border-radius: 50px;
+
+box-shadow:  5px 5px 10px #c5c5c5,
+             -5px -5px 10px #fbfbfb;
+}
+@media (max-width:850px){
+  .center{
+left: 5%;
+  }
+  .pagenav{
+    display: flex;
+    flex-direction: column;
+  }
+  .Input{
+    width: 16rem;
+  }
+}
+
+.buttons Button{
+  background-color:white;
+  color:#999999;
+  border-radius:0;
+  border: 1px solid #999999;
+  height: 3rem;
+}
+
+.buttons Button:hover{
+  background-color:#E4EAEE;
+  color:black;
+  border:1px solid #999999 ;
+  
+}
